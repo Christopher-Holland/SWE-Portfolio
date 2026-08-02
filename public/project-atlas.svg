@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Placeholder screenshot for Atlas Dashboard">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1219"/>
+      <stop offset="100%" stop-color="#1d2836"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <rect x="40" y="40" width="880" height="520" rx="18" fill="#141c27" stroke="#2a3a4d"/>
+  <rect x="64" y="68" width="160" height="14" rx="7" fill="#2ec4a6" opacity="0.7"/>
+  <rect x="64" y="100" width="240" height="10" rx="5" fill="#7f93a8" opacity="0.5"/>
+  <rect x="64" y="160" width="260" height="140" rx="12" fill="#1d2836" stroke="#2a3a4d"/>
+  <rect x="350" y="160" width="260" height="140" rx="12" fill="#1d2836" stroke="#2a3a4d"/>
+  <rect x="636" y="160" width="240" height="140" rx="12" fill="#1d2836" stroke="#2a3a4d"/>
+  <path d="M90 360h740" stroke="#2a3a4d"/>
+  <path d="M90 470 C180 430, 260 500, 360 440 S540 360, 650 410 820 390, 830 390" fill="none" stroke="#2ec4a6" stroke-width="3"/>
+  <circle cx="360" cy="440" r="5" fill="#e8b84a"/>
+  <circle cx="650" cy="410" r="5" fill="#2ec4a6"/>
+  <text x="64" y="545" fill="#a9b8c7" font-family="monospace" font-size="16">[PLACEHOLDER] Atlas Dashboard</text>
+</svg>

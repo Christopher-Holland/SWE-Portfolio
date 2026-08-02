@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Placeholder screenshot for Northwind Maps">
+  <defs>
+    <linearGradient id="map" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14304a"/>
+      <stop offset="100%" stop-color="#0c1219"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#map)"/>
+  <path d="M40 180 C160 120, 240 260, 360 200 S560 80, 700 160 880 240, 920 220" fill="none" stroke="#2ec4a6" stroke-width="3" opacity="0.8"/>
+  <path d="M60 360 C180 300, 280 420, 420 340 S640 220, 780 320 900 380, 940 360" fill="none" stroke="#e8b84a" stroke-width="2.5" opacity="0.7"/>
+  <circle cx="360" cy="200" r="8" fill="#2ec4a6"/>
+  <circle cx="700" cy="160" r="8" fill="#2ec4a6"/>
+  <circle cx="420" cy="340" r="8" fill="#e8b84a"/>
+  <circle cx="780" cy="320" r="8" fill="#e8b84a"/>
+  <rect x="48" y="48" width="220" height="110" rx="14" fill="#141c27" stroke="#2a3a4d"/>
+  <rect x="68" y="72" width="140" height="12" rx="6" fill="#a9b8c7"/>
+  <rect x="68" y="98" width="100" height="10" rx="5" fill="#7f93a8"/>
+  <rect x="68" y="122" width="120" height="10" rx="5" fill="#2ec4a6" opacity="0.6"/>
+  <text x="48" y="560" fill="#a9b8c7" font-family="monospace" font-size="16">[PLACEHOLDER] Northwind Maps</text>
+</svg>
