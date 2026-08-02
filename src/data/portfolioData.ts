@@ -3,16 +3,16 @@ import type { PortfolioData } from '../types/portfolio';
 /**
  * Centralized portfolio content.
  *
- * Replace every [PLACEHOLDER] value with your real information before deploying.
- * Components import from this file only — edit here, not in section components.
+ * Replace remaining TODO values with your real links, contact details,
+ * screenshots, and resume path before deploying.
  */
 export const portfolioData: PortfolioData = {
   meta: {
-    siteTitle: '[PLACEHOLDER: Full Name] | Software Engineer',
+    siteTitle: 'Christopher Holland | Software Engineer',
     siteDescription:
-      'Portfolio of [PLACEHOLDER: Full Name], a software engineer specializing in [PLACEHOLDER: specialty area].',
-    authorName: '[PLACEHOLDER: Full Name]',
-    copyrightName: '[PLACEHOLDER: Full Name]',
+      'Portfolio of Christopher Holland, a software engineer and automation developer building practical web applications, internal tools, and AutoCAD workflow automation.',
+    authorName: 'Christopher Holland',
+    copyrightName: 'Christopher Holland',
   },
 
   nav: [
@@ -25,217 +25,264 @@ export const portfolioData: PortfolioData = {
   ],
 
   hero: {
-    greeting: 'Hello — I build software that ships.',
-    name: '[PLACEHOLDER: Full Name]',
-    title: '[PLACEHOLDER: Professional Title, e.g. Full-Stack Software Engineer]',
+    greeting: 'Hello — I build software that solves real problems.',
+    name: 'Christopher Holland',
+    title: 'Software Engineer & Automation Developer',
     tagline:
-      'I design and deliver reliable web applications with clear architecture, thoughtful UX, and measurable impact. Currently open to [PLACEHOLDER: role type] opportunities.',
+      'I build full-stack applications, internal tools, and workflow automation with a focus on practical design, maintainable code, and measurable improvements. Currently seeking full-time software engineering and automation opportunities.',
     primaryCta: { label: 'View projects', href: '#projects' },
-    secondaryCta: { label: 'Download resume', href: '#resume-placeholder' },
-    availability: '[PLACEHOLDER: Available for new opportunities — City, ST]',
+    secondaryCta: {
+      label: 'Download resume',
+      href: '/TODO-christopher-holland-resume.pdf',
+    },
+    availability: 'Open to full-time opportunities — Kentucky / Remote',
   },
 
   about: {
     heading: 'Professional summary',
     paragraphs: [
-      '[PLACEHOLDER: Opening biography paragraph. Summarize your background in 2–3 sentences — years of experience, primary stack, and the kinds of problems you enjoy solving.]',
-      '[PLACEHOLDER: Second paragraph. Mention collaboration style, ownership habits, and a concrete example of impact such as improving performance, shipping a product feature, or mentoring teammates.]',
-      '[PLACEHOLDER: Closing paragraph. State what you are looking for next and what environments help you do your best work.]',
+      'I am a software engineer and senior CAD technician with more than seven years of professional experience supporting utility design workflows. My background combines software development, mechanical design, AutoCAD, and hands-on process improvement.',
+      'I enjoy identifying repetitive or inefficient work and turning it into reliable tools. In my current role, I have developed AutoLISP automation that reduces manual drafting steps, improves consistency, and gives designers more time to focus on higher-value work.',
+      'I am now pursuing a full-time software engineering or automation role where I can contribute across the development lifecycle, continue solving practical business problems, and grow alongside a collaborative engineering team.',
     ],
     highlights: [
-      '[PLACEHOLDER: Highlight — e.g. Shipped production systems used by thousands of users]',
-      '[PLACEHOLDER: Highlight — e.g. Strong focus on testing, observability, and maintainability]',
-      '[PLACEHOLDER: Highlight — e.g. Comfortable owning features end-to-end from design to deploy]',
-      '[PLACEHOLDER: Highlight — e.g. Clear written communication across engineering and product]',
+      'Built AutoCAD automation tools for real production workflows',
+      'Develops full-stack applications with React, Next.js, TypeScript, and Node.js',
+      'Comfortable translating operational problems into maintainable software',
+      'Strong technical communication, ownership, and attention to detail',
     ],
-    location: '[PLACEHOLDER: City, State / Remote]',
-    yearsExperience: '[PLACEHOLDER: X+ years]',
+    location: 'Kentucky / Remote',
+    yearsExperience: '7+ years of technical experience',
   },
 
   skills: [
     {
       title: 'Languages',
-      description: 'Day-to-day languages used to ship product features.',
+      description:
+        'Languages used across web development, automation, coursework, and personal projects.',
       skills: [
-        { name: 'TypeScript', level: 92 },
-        { name: 'JavaScript', level: 90 },
-        { name: 'Python', level: 78 },
-        { name: 'SQL', level: 80 },
+        { name: 'TypeScript', level: 86 },
+        { name: 'JavaScript', level: 88 },
+        { name: 'Python', level: 75 },
+        { name: 'SQL', level: 76 },
+        { name: 'C++', level: 68 },
+        { name: 'AutoLISP', level: 82 },
       ],
     },
     {
       title: 'Frontend',
-      description: 'Interfaces, accessibility, and client-side architecture.',
+      description:
+        'Responsive interfaces, reusable components, and accessible user experiences.',
       skills: [
-        { name: 'React', level: 90 },
+        { name: 'React', level: 87 },
         { name: 'Next.js', level: 82 },
-        { name: 'HTML & CSS', level: 94 },
-        { name: 'Tailwind CSS', level: 88 },
+        { name: 'HTML & CSS', level: 90 },
+        { name: 'Tailwind CSS', level: 86 },
       ],
     },
     {
       title: 'Backend & Data',
-      description: 'APIs, services, and persistence layers.',
+      description:
+        'Application logic, APIs, authentication, and persistent data.',
       skills: [
-        { name: 'Node.js', level: 86 },
-        { name: 'REST & GraphQL', level: 84 },
-        { name: 'PostgreSQL', level: 80 },
-        { name: 'Redis', level: 70 },
+        { name: 'Node.js', level: 80 },
+        { name: 'REST APIs', level: 78 },
+        { name: 'PostgreSQL', level: 74 },
+        { name: 'Prisma', level: 76 },
+        { name: 'Supabase', level: 78 },
+        { name: 'Firebase', level: 72 },
       ],
     },
     {
       title: 'Tooling & Practices',
-      description: 'Delivery, quality, and collaboration habits.',
+      description:
+        'Tools and practices used to build, test, version, and deliver software.',
       skills: [
-        { name: 'Git & GitHub', level: 92 },
-        { name: 'CI/CD', level: 78 },
-        { name: 'Testing (Jest / Playwright)', level: 76 },
-        { name: 'Docker', level: 72 },
+        { name: 'Git & GitHub', level: 86 },
+        { name: 'Responsive Design', level: 88 },
+        { name: 'AutoCAD Automation', level: 90 },
+        { name: 'Figma', level: 70 },
+        { name: 'CI/CD', level: 66 },
+        { name: 'Agile Development', level: 78 },
       ],
     },
   ],
 
   projects: [
     {
-      id: 'project-atlas',
-      title: '[PLACEHOLDER: Project Name — Atlas Dashboard]',
+      id: 'deckhaven',
+      title: 'DeckHaven',
       shortDescription:
-        'A real-time operations dashboard for monitoring distributed service health.',
+        'A full-stack platform for organizing Magic: The Gathering decks, cards, and collections.',
       longSummary:
-        '[PLACEHOLDER: Longer project summary. Describe the problem, your role, technical approach, and outcome. Example: Designed a React + Node dashboard that reduced incident triage time by surfacing latency and error budgets in one place.]',
-      technologies: ['React', 'TypeScript', 'Node.js', 'WebSockets', 'PostgreSQL'],
-      imageSrc: '/project-atlas.svg',
+        'DeckHaven is a responsive portfolio application built to help Magic: The Gathering players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design.',
+      technologies: [
+        'Next.js',
+        'React',
+        'TypeScript',
+        'Tailwind CSS',
+        'Prisma',
+        'Supabase',
+      ],
+      imageSrc: '/TODO-deckhaven-screenshot.png',
       imageAlt:
-        'Placeholder screenshot of the Atlas Dashboard project showing a dark analytics interface',
-      githubUrl: 'https://github.com/placeholder-username/atlas-dashboard',
-      liveUrl: 'https://example.com/atlas-dashboard',
+        'DeckHaven interface showing Magic: The Gathering deck and collection management tools',
+      githubUrl: 'TODO_GITHUB_URL_DECKHAVEN',
+      liveUrl: 'TODO_LIVE_URL_DECKHAVEN',
       featured: true,
     },
     {
-      id: 'project-harbor',
-      title: '[PLACEHOLDER: Project Name — Harbor CMS]',
+      id: 'utilityops-workload-tracker',
+      title: 'UtilityOps Workload Tracker',
       shortDescription:
-        'A content platform with role-based publishing workflows and preview environments.',
+        'An internal operations dashboard for tracking projects, assignments, workload, deadlines, and team capacity.',
       longSummary:
-        '[PLACEHOLDER: Longer project summary. Cover architecture decisions such as draft/publish flows, access control, and how preview deployments were integrated into the editorial process.]',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
-      imageSrc: '/project-harbor.svg',
+        'UtilityOps Workload Tracker is a production-inspired management platform designed around the needs of utility design teams. It brings project status, employee workload, scheduling, deadlines, and operational reporting into one interface. The project demonstrates dashboard architecture, data visualization, component-driven design, and business-focused product development.',
+      technologies: [
+        'Next.js',
+        'React',
+        'TypeScript',
+        'Tailwind CSS',
+        'Prisma',
+        'PostgreSQL',
+      ],
+      imageSrc: '/TODO-utilityops-screenshot.png',
       imageAlt:
-        'Placeholder screenshot of the Harbor CMS project showing an editorial content layout',
-      githubUrl: 'https://github.com/placeholder-username/harbor-cms',
-      liveUrl: 'https://example.com/harbor-cms',
+        'UtilityOps dashboard showing project status, team workload, and operational metrics',
+      githubUrl: 'TODO_GITHUB_URL_UTILITYOPS',
+      liveUrl: 'TODO_LIVE_URL_UTILITYOPS',
+      featured: true,
+    },
+    /*{
+      id: 'autocad-automation-suite',
+      title: 'AutoCAD Automation Suite',
+      shortDescription:
+        'A collection of AutoLISP tools that automate repetitive drafting and utility-design workflows.',
+      longSummary:
+        'This suite was created to solve real production bottlenecks in utility drafting. The tools automate block placement, text creation, layer processing, rotations, duplicate cleanup, and other repetitive AutoCAD tasks. The project demonstrates requirements gathering, iterative testing, debugging, workflow analysis, and measurable process improvement in a professional environment.',
+      technologies: [
+        'AutoLISP',
+        'AutoCAD',
+        'CAD Automation',
+        'DXF',
+        'Workflow Design',
+      ],
+      imageSrc: '/TODO-autocad-automation-screenshot.png',
+      imageAlt:
+        'AutoCAD utility drawing demonstrating custom drafting automation tools',
+      githubUrl: 'TODO_GITHUB_OR_CASE_STUDY_URL_AUTOCAD',
+      liveUrl: 'TODO_DEMO_OR_CASE_STUDY_URL_AUTOCAD',
       featured: true,
     },
     {
-      id: 'project-signal',
-      title: '[PLACEHOLDER: Project Name — Signal CLI]',
+      id: 'drag-tree',
+      title: 'Drag Racing Tree Simulator',
       shortDescription:
-        'A developer CLI that scaffolds observability hooks into existing Node services.',
+        'An interactive drag-racing reaction-time game with staging, countdown, green-light, and red-light logic.',
       longSummary:
-        '[PLACEHOLDER: Longer project summary. Explain why the CLI exists, what boilerplate it removes, and how teams adopted it for consistent logging and metrics instrumentation.]',
-      technologies: ['Node.js', 'TypeScript', 'Commander', 'OpenTelemetry'],
-      imageSrc: '/project-signal.svg',
+        'The Drag Racing Tree Simulator recreates the timing and pressure of a drag-racing starting tree in the browser. It uses carefully managed timers and application state to handle pre-stage, stage, amber countdowns, reaction times, and early-launch red lights. The project combines a personal interest in drag racing with focused frontend engineering.',
+      technologies: ['React', 'TypeScript', 'Vite', 'CSS', 'Web APIs'],
+      imageSrc: '/TODO-drag-tree-screenshot.png',
       imageAlt:
-        'Placeholder screenshot of the Signal CLI project showing a terminal-inspired interface',
-      githubUrl: 'https://github.com/placeholder-username/signal-cli',
-      liveUrl: 'https://example.com/signal-cli',
+        'Drag Racing Tree Simulator showing staged lights and reaction-time controls',
+      githubUrl: 'TODO_GITHUB_URL_DRAG_TREE',
+      liveUrl: 'TODO_LIVE_URL_DRAG_TREE',
       featured: true,
-    },
-    {
-      id: 'project-northwind',
-      title: '[PLACEHOLDER: Project Name — Northwind Maps]',
-      shortDescription:
-        'An interactive mapping tool for visualizing field service coverage and routes.',
-      longSummary:
-        '[PLACEHOLDER: Longer project summary. Describe map rendering trade-offs, data ingestion, and performance work needed to keep interactions smooth on mobile devices.]',
-      technologies: ['React', 'Mapbox GL', 'TypeScript', 'Express', 'MongoDB'],
-      imageSrc: '/project-northwind.svg',
-      imageAlt:
-        'Placeholder screenshot of the Northwind Maps project showing a map-centric product UI',
-      githubUrl: 'https://github.com/placeholder-username/northwind-maps',
-      liveUrl: 'https://example.com/northwind-maps',
-      featured: true,
-    },
+    }*/,
   ],
 
   experience: [
     {
-      id: 'exp-1',
-      role: '[PLACEHOLDER: Job Title — Senior Software Engineer]',
-      company: '[PLACEHOLDER: Employer Name]',
-      location: '[PLACEHOLDER: City, ST / Remote]',
-      startDate: '[PLACEHOLDER: Mon YYYY]',
+      id: 'exp-entrust',
+      role: 'Senior CAD Technician',
+      company: 'ENTRUST Solutions Group',
+      location: 'Remote',
+      startDate: 'Aug 2019',
       endDate: 'Present',
       summary:
-        '[PLACEHOLDER: One-sentence role summary covering team scope and product domain.]',
+        'Support underground natural-gas design and drafting workflows while developing automation that improves speed, consistency, and usability.',
       achievements: [
-        '[PLACEHOLDER: Achievement with measurable outcome, e.g. reduced API p95 latency by 35%.]',
-        '[PLACEHOLDER: Achievement about ownership, e.g. led migration of legacy module to TypeScript.]',
-        '[PLACEHOLDER: Achievement about collaboration, e.g. partnered with design to ship accessible UI.]',
+        'Developed AutoLISP tools that automate repetitive drafting tasks including block placement, text generation, rotations, layer processing, and drawing cleanup.',
+        'Translate engineering information, GIS data, DXF files, markups, and field documentation into accurate construction drawings and as-built records.',
+        'Collaborate with designers, engineers, managers, and end users to identify workflow problems, test solutions, and refine production tools.',
+        'Recognized as Employee of the Month for performance, reliability, and contributions to team operations.',
       ],
-      technologies: ['TypeScript', 'React', 'Node.js', 'PostgreSQL', 'AWS'],
+      technologies: [
+        'AutoCAD',
+        'AutoLISP',
+        'DXF',
+        'GIS Data',
+        'Utility Design',
+        'Process Automation',
+      ],
     },
     {
-      id: 'exp-2',
-      role: '[PLACEHOLDER: Job Title — Software Engineer]',
-      company: '[PLACEHOLDER: Previous Employer Name]',
-      location: '[PLACEHOLDER: City, ST]',
-      startDate: '[PLACEHOLDER: Mon YYYY]',
-      endDate: '[PLACEHOLDER: Mon YYYY]',
+      id: 'exp-aerotek',
+      role: 'CAD Technician',
+      company: 'Aerotek — Contract Assignment',
+      location: 'Kentucky / Remote',
+      startDate: 'Feb 2019',
+      endDate: 'Aug 2019',
       summary:
-        '[PLACEHOLDER: Role summary describing product area and engineering responsibilities.]',
+        'Produced and revised utility design drawings while learning client standards, drafting workflows, and quality-control requirements.',
       achievements: [
-        '[PLACEHOLDER: Shipped feature X that improved conversion / retention / reliability.]',
-        '[PLACEHOLDER: Improved test coverage or CI pipeline reliability for the squad.]',
-        '[PLACEHOLDER: Mentored interns or improved onboarding documentation.]',
+        'Created and updated underground utility drawings using AutoCAD and client-provided design information.',
+        'Maintained drawing accuracy while working within established CAD standards and production deadlines.',
+        'Transitioned from contract status into a permanent role based on performance and reliability.',
       ],
-      technologies: ['JavaScript', 'React', 'Express', 'MongoDB', 'Docker'],
-    },
-    {
-      id: 'exp-3',
-      role: '[PLACEHOLDER: Job Title — Junior / Associate Software Engineer]',
-      company: '[PLACEHOLDER: Earlier Employer Name]',
-      location: '[PLACEHOLDER: City, ST]',
-      startDate: '[PLACEHOLDER: Mon YYYY]',
-      endDate: '[PLACEHOLDER: Mon YYYY]',
-      summary:
-        '[PLACEHOLDER: Early-career role summary focusing on growth and foundational contributions.]',
-      achievements: [
-        '[PLACEHOLDER: Delivered bug fixes and small features across the product surface.]',
-        '[PLACEHOLDER: Learned production debugging, code review, and agile delivery practices.]',
+      technologies: [
+        'AutoCAD',
+        'Technical Drafting',
+        'Utility Design',
+        'Quality Control',
       ],
-      technologies: ['JavaScript', 'HTML', 'CSS', 'REST APIs'],
     },
   ],
 
   education: [
     {
-      id: 'edu-1',
-      degree: '[PLACEHOLDER: Degree — B.S. Computer Science]',
-      school: '[PLACEHOLDER: University Name]',
-      location: '[PLACEHOLDER: City, ST]',
-      startDate: '[PLACEHOLDER: YYYY]',
-      endDate: '[PLACEHOLDER: YYYY]',
+      id: 'edu-bachelors',
+      degree:
+        'Bachelor of Science in Computer Science — Software Engineering',
+      school: 'Southern New Hampshire University',
+      location: 'Online',
+      startDate: '2023',
+      endDate: '2025',
       details:
-        '[PLACEHOLDER: Brief note about focus area, honors, or relevant coursework.]',
+        'Completed a software engineering-focused computer science degree with a 3.97 GPA while working full-time.',
       highlights: [
-        '[PLACEHOLDER: Relevant coursework — Algorithms, Distributed Systems, HCI]',
-        '[PLACEHOLDER: Capstone / thesis title]',
-        '[PLACEHOLDER: Academic honor or leadership role]',
+        'Coursework included software engineering, algorithms, databases, application development, testing, and secure coding',
+        'Built applications using JavaScript, TypeScript, Python, C++, SQL, and modern web frameworks',
+        'Graduated with a 3.97 GPA',
       ],
     },
     {
-      id: 'edu-2',
-      degree: '[PLACEHOLDER: Certificate — Full-Stack Web Development]',
-      school: '[PLACEHOLDER: Bootcamp or Platform Name]',
-      location: 'Online',
-      startDate: '[PLACEHOLDER: YYYY]',
-      endDate: '[PLACEHOLDER: YYYY]',
+      id: 'edu-mechanical-design',
+      degree: 'Associate of Arts in Mechanical Design',
+      school: 'Maysville Community and Technical College',
+      location: 'Kentucky',
+      startDate: '2020',
+      endDate: '2020',
       details:
-        '[PLACEHOLDER: Optional additional education or professional certificate details.]',
+        'Completed an applied degree focused on technical drafting, mechanical design, 3D modeling, and CAD workflows.',
       highlights: [
-        '[PLACEHOLDER: Built X full-stack applications as part of the program]',
-        '[PLACEHOLDER: Focus areas — React, Node, databases, deployment]',
+        'Graduated with a 4.0 GPA',
+        'Completed technical training in AutoCAD and 3D modeling',
+        'Developed a strong foundation in design documentation and manufacturing-oriented problem solving',
+      ],
+    },
+    {
+      id: 'edu-general-studies',
+      degree: 'Associate of Science in General Studies',
+      school: 'Maysville Community and Technical College',
+      location: 'Kentucky',
+      startDate: '2012',
+      endDate: '2015',
+      details:
+        'Completed a broad undergraduate program that provided a foundation for later technical and software-focused education.',
+      highlights: [
+        'Graduated with a 3.5 GPA',
+        'Completed foundational mathematics, science, communication, and general education coursework',
       ],
     },
   ],
@@ -243,34 +290,30 @@ export const portfolioData: PortfolioData = {
   contact: {
     heading: 'Let’s build something useful',
     description:
-      'Open to [PLACEHOLDER: full-time / contract / remote] roles. Prefer email for first contact — I typically respond within two business days.',
-    email: 'hello@placeholder-email.com',
-    phone: '[PLACEHOLDER: +1 (555) 000-0000]',
-    location: '[PLACEHOLDER: City, State — Open to remote]',
-    resumeUrl: '#resume-placeholder',
+      'I am open to full-time software engineering, automation, and development opportunities. Email is the best way to reach me.',
+    email: 'christophermholland004@gmail.com',
+    phone: 'TODO_PHONE_NUMBER',
+    location: 'Kentucky — Open to remote opportunities',
+    resumeUrl: '/TODO-christopher-holland-resume.pdf',
     formNote:
-      'This page does not submit a live form. Use the email link or update the contact section to wire your preferred form provider.',
+      'Use the email link to contact me directly. A live contact form may be added in a future update.',
   },
 
   social: [
     {
       label: 'GitHub',
-      href: 'https://github.com/placeholder-username',
+      href: 'https://github.com/christopher-holland',
       icon: 'github',
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/placeholder-profile',
+      href: 'https://www.linkedin.com/in/cmholland',
       icon: 'linkedin',
     },
-    {
-      label: 'Portfolio site',
-      href: 'https://example.com',
-      icon: 'globe',
-    },
+    
     {
       label: 'Email',
-      href: 'mailto:hello@placeholder-email.com',
+      href: 'mailto:christophermholland004@gmail.com',
       icon: 'email',
     },
   ],
