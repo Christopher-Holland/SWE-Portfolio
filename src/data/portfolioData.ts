@@ -188,7 +188,7 @@ export const portfolioData: PortfolioData = {
       githubUrl: 'TODO_GITHUB_URL_DRAG_TREE',
       liveUrl: 'TODO_LIVE_URL_DRAG_TREE',
       featured: true,
-    }*/,
+    }*/
   ],
 
   experience: [
