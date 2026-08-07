@@ -16,7 +16,7 @@ export function ExperienceSection({ items }: ExperienceSectionProps) {
         <SectionHeading
           eyebrow="Career"
           title="Work experience"
-          description="Roles, ownership, and outcomes — edit employer names and dates before sharing."
+          description="Roles, ownership, and outcomes"
         />
         <h2 id="experience-heading" className="sr-only">
           Work experience

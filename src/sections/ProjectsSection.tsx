@@ -15,7 +15,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
         <SectionHeading
           eyebrow="Selected work"
           title="Featured projects"
-          description="Four representative builds. Replace screenshots, copy, and links in portfolioData.ts."
+          description="A collection of projects that I've worked on and are currently working on."
         />
         <h2 id="projects-heading" className="sr-only">
           Featured projects

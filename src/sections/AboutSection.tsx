@@ -12,7 +12,7 @@ export function AboutSection({ content }: AboutSectionProps) {
         <SectionHeading
           eyebrow="About"
           title={content.heading}
-          description="A concise snapshot of background, working style, and the problems I care about solving."
+          description="Who I am and what I do"
         />
 
         <div className="grid gap-8 lg:grid-cols-[1.4fr_0.8fr]">

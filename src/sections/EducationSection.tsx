@@ -12,7 +12,7 @@ export function EducationSection({ items }: EducationSectionProps) {
         <SectionHeading
           eyebrow="Learning"
           title="Education"
-          description="Formal education and professional learning paths. Swap in your schools and dates."
+          description="Learning something new every day"
         />
         <h2 id="education-heading" className="sr-only">
           Education

@@ -101,7 +101,6 @@ export const portfolioData: PortfolioData = {
         { name: 'Git & GitHub', level: 86 },
         { name: 'Responsive Design', level: 88 },
         { name: 'AutoCAD Automation', level: 90 },
-        { name: 'Figma', level: 70 },
         { name: 'CI/CD', level: 66 },
         { name: 'Agile Development', level: 78 },
       ],

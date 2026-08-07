@@ -17,7 +17,7 @@ export function SkillsSection({ categories }: SkillsSectionProps) {
         <SectionHeading
           eyebrow="Capabilities"
           title="Skills and technologies"
-          description="Grouped by how they show up in day-to-day delivery — not an exhaustive laundry list."
+          description="Grouped by how they show up in day-to-day delivery"
         />
         <h2 id="skills-heading" className="sr-only">
           Skills and technologies
