@@ -113,9 +113,9 @@ export const portfolioData: PortfolioData = {
       id: 'deckhaven',
       title: 'DeckHaven',
       shortDescription:
-        'A full-stack platform for organizing Magic: The Gathering decks, cards, and collections.',
+        'A full-stack platform for organizing trading card game decks, cards, and collections.',
       longSummary:
-        'DeckHaven is a responsive portfolio application built to help Magic: The Gathering players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design.',
+        'DeckHaven is a responsive portfolio application built to help trading card game players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design.',
       technologies: [
         'Next.js',
         'React',
@@ -124,11 +124,10 @@ export const portfolioData: PortfolioData = {
         'Prisma',
         'Supabase',
       ],
-      imageSrc: '/TODO-deckhaven-screenshot.png',
-      imageAlt:
-        'DeckHaven interface showing Magic: The Gathering deck and collection management tools',
-      githubUrl: 'TODO_GITHUB_URL_DECKHAVEN',
-      liveUrl: 'TODO_LIVE_URL_DECKHAVEN',
+      imageSrc: 'DeckHaven-Dashboard.png',
+      imageAlt: 'DeckHaven interface showing trading card game deck and collection management tools',
+      githubUrl: 'https://github.com/Christopher-Holland/DeckHaven',
+      liveUrl: 'https://deck-haven.vercel.app/',
       featured: true,
     },
     {
@@ -146,12 +145,13 @@ export const portfolioData: PortfolioData = {
         'Prisma',
         'PostgreSQL',
       ],
-      imageSrc: '/TODO-utilityops-screenshot.png',
+      imageSrc: 'Workload-dashboard.png',
       imageAlt:
         'UtilityOps dashboard showing project status, team workload, and operational metrics',
-      githubUrl: 'TODO_GITHUB_URL_UTILITYOPS',
+      githubUrl: 'https://github.com/Christopher-Holland/workload-tracker',
       liveUrl: 'TODO_LIVE_URL_UTILITYOPS',
       featured: true,
+      inProgress: true,
     },
     /*{
       id: 'autocad-automation-suite',
@@ -292,7 +292,6 @@ export const portfolioData: PortfolioData = {
     description:
       'I am open to full-time software engineering, automation, and development opportunities. Email is the best way to reach me.',
     email: 'christophermholland004@gmail.com',
-    phone: 'TODO_PHONE_NUMBER',
     location: 'Kentucky — Open to remote opportunities',
     resumeUrl: '/TODO-christopher-holland-resume.pdf',
     formNote:

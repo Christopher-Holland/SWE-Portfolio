@@ -64,6 +64,7 @@ export interface Project {
   githubUrl: string;
   liveUrl: string;
   featured: boolean;
+  inProgress?: boolean;
 }
 
 export interface ExperienceItem {
@@ -93,7 +94,6 @@ export interface ContactContent {
   heading: string;
   description: string;
   email: string;
-  phone: string;
   location: string;
   resumeUrl: string;
   formNote: string;

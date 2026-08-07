@@ -25,6 +25,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
             Featured
           </span>
         ) : null}
+
+        {project.inProgress ? (
+          <span className="absolute top-3 left-3 rounded-full bg-accent px-2.5 py-1 font-mono text-[0.65rem] font-semibold tracking-wide text-ink-950 uppercase">
+            In Progress
+          </span>
+        ) : null}
       </div>
 
       <div className="flex flex-1 flex-col gap-4 p-5 sm:p-6">

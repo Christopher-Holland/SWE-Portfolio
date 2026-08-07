@@ -48,12 +48,6 @@ export function ContactSection({ content, social }: ContactSectionProps) {
                 </div>
                 <div>
                   <dt className="font-mono text-xs tracking-wide text-muted uppercase">
-                    Phone
-                  </dt>
-                  <dd className="mt-1 text-app">{content.phone}</dd>
-                </div>
-                <div>
-                  <dt className="font-mono text-xs tracking-wide text-muted uppercase">
                     Location
                   </dt>
                   <dd className="mt-1 text-app">{content.location}</dd>
@@ -75,7 +69,7 @@ export function ContactSection({ content, social }: ContactSectionProps) {
             <aside className="border-t border-app bg-section p-6 sm:p-10 lg:border-t-0 lg:border-l">
               <h3 className="font-display text-lg font-semibold">Elsewhere</h3>
               <p className="mt-2 mb-6 text-sm text-muted">
-                Placeholder profile links — update them in the centralized data file.
+                Find me on the following platforms:
               </p>
               <SocialLinks links={social} />
             </aside>
