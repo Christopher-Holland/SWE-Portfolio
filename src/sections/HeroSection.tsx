@@ -76,7 +76,7 @@ export function HeroSection({ content }: HeroSectionProps) {
               <p>measurable outcomes · clean PRs</p>
               <p className="mt-3 text-app">status: ready to collaborate</p>
             </div>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-3 gap-3 pt-3">
               {['API', 'UI', 'CI'].map((label) => (
                 <div
                   key={label}
