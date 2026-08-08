@@ -173,6 +173,7 @@ export const portfolioData: PortfolioData = {
       liveUrl: 'TODO_DEMO_OR_CASE_STUDY_URL_AUTOCAD',
       featured: true,
     },
+    */
     {
       id: 'drag-tree',
       title: 'Drag Racing Tree Simulator',
@@ -181,13 +182,13 @@ export const portfolioData: PortfolioData = {
       longSummary:
         'The Drag Racing Tree Simulator recreates the timing and pressure of a drag-racing starting tree in the browser. It uses carefully managed timers and application state to handle pre-stage, stage, amber countdowns, reaction times, and early-launch red lights. The project combines a personal interest in drag racing with focused frontend engineering.',
       technologies: ['React', 'TypeScript', 'Vite', 'CSS', 'Web APIs'],
-      imageSrc: '/TODO-drag-tree-screenshot.png',
+      imageSrc: 'DragTree.png',
       imageAlt:
         'Drag Racing Tree Simulator showing staged lights and reaction-time controls',
-      githubUrl: 'TODO_GITHUB_URL_DRAG_TREE',
+      githubUrl: 'https://github.com/Christopher-Holland/drag-tree',
       liveUrl: 'TODO_LIVE_URL_DRAG_TREE',
       featured: true,
-    }*/
+    }
   ],
 
   experience: [
