@@ -109,6 +109,27 @@ export const portfolioData: PortfolioData = {
 
   projects: [
     {
+      id: 'autocad-automation-suite',
+      title: 'AutoCAD Automation Suite',
+      shortDescription:
+        'A collection of AutoLISP tools that automate repetitive drafting and utility-design workflows.',
+      longSummary:
+        'Built to solve real production bottlenecks in utility drafting, this suite automates block placement, text creation, layer processing, roadway geometry handling, rotations, duplicate cleanup, and other repetitive AutoCAD tasks. The project demonstrates workflow analysis, modular automation design, iterative testing, debugging, and the application of software development techniques to a professional CAD environment.',
+      technologies: [
+        'AutoLISP',
+        'AutoCAD',
+        'CAD Automation',
+        'DXF',
+        'Workflow Design',
+      ],
+      imageSrc: 'After_DXF.png',
+      imageAlt:
+        'AutoCAD utility drawing demonstrating custom drafting automation tools',
+      githubUrl: 'https://github.com/Christopher-Holland/AutoCAD-Automation',
+      featured: true,
+      inProgress: false,
+    },
+    {
       id: 'deckhaven',
       title: 'DeckHaven',
       shortDescription:
@@ -151,30 +172,8 @@ export const portfolioData: PortfolioData = {
       liveUrl: 'TODO_LIVE_URL_UTILITYOPS',
       featured: true,
       inProgress: true,
-    },
+    },  
     /*{
-      id: 'autocad-automation-suite',
-      title: 'AutoCAD Automation Suite',
-      shortDescription:
-        'A collection of AutoLISP tools that automate repetitive drafting and utility-design workflows.',
-      longSummary:
-        'This suite was created to solve real production bottlenecks in utility drafting. The tools automate block placement, text creation, layer processing, rotations, duplicate cleanup, and other repetitive AutoCAD tasks. The project demonstrates requirements gathering, iterative testing, debugging, workflow analysis, and measurable process improvement in a professional environment.',
-      technologies: [
-        'AutoLISP',
-        'AutoCAD',
-        'CAD Automation',
-        'DXF',
-        'Workflow Design',
-      ],
-      imageSrc: '/TODO-autocad-automation-screenshot.png',
-      imageAlt:
-        'AutoCAD utility drawing demonstrating custom drafting automation tools',
-      githubUrl: 'TODO_GITHUB_OR_CASE_STUDY_URL_AUTOCAD',
-      liveUrl: 'TODO_DEMO_OR_CASE_STUDY_URL_AUTOCAD',
-      featured: true,
-    },
-    */
-    {
       id: 'drag-tree',
       title: 'Drag Racing Tree Simulator',
       shortDescription:
@@ -188,7 +187,7 @@ export const portfolioData: PortfolioData = {
       githubUrl: 'https://github.com/Christopher-Holland/drag-tree',
       liveUrl: 'TODO_LIVE_URL_DRAG_TREE',
       featured: true,
-    }
+    }*/
   ],
 
   experience: [

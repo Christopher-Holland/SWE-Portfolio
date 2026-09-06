@@ -62,7 +62,8 @@ export interface Project {
   imageSrc: string;
   imageAlt: string;
   githubUrl: string;
-  liveUrl: string;
+  /** Omit when there is no live demo (e.g. desktop/CAD tools). */
+  liveUrl?: string;
   featured: boolean;
   inProgress?: boolean;
 }

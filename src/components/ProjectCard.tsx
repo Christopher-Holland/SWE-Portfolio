@@ -57,10 +57,16 @@ export function ProjectCard({ project }: ProjectCardProps) {
         </ul>
 
         <div className="mt-auto flex flex-wrap gap-3 pt-2">
-          <ButtonLink href={project.liveUrl} variant="primary" external>
-            Live demo
-          </ButtonLink>
-          <ButtonLink href={project.githubUrl} variant="secondary" external>
+          {project.liveUrl ? (
+            <ButtonLink href={project.liveUrl} variant="primary" external>
+              Live demo
+            </ButtonLink>
+          ) : null}
+          <ButtonLink
+            href={project.githubUrl}
+            variant={project.liveUrl ? 'secondary' : 'primary'}
+            external
+          >
             Repository
           </ButtonLink>
         </div>
