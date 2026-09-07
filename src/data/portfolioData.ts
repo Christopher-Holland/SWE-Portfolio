@@ -135,7 +135,7 @@ export const portfolioData: PortfolioData = {
       shortDescription:
         'A full-stack platform for organizing trading card game decks, cards, and collections.',
       longSummary:
-        'DeckHaven is a responsive portfolio application built to help trading card game players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design. \n\nThe current version only supports Magic: The Gathering, but additional card games will be added in the future.',
+        'DeckHaven is a responsive portfolio application built to help trading card game players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design. The current version only supports Magic: The Gathering, but additional card games will be added in the future.',
       technologies: [
         'Next.js',
         'React',
