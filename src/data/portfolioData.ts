@@ -33,7 +33,7 @@ export const portfolioData: PortfolioData = {
     primaryCta: { label: 'View projects', href: '#projects' },
     secondaryCta: {
       label: 'Download resume',
-      href: '/TODO-christopher-holland-resume.pdf',
+      href: '/Christopher_Holland_Resume.pdf',
     },
     availability: 'Open to full-time opportunities — Kentucky / Remote',
   },
@@ -150,44 +150,7 @@ export const portfolioData: PortfolioData = {
       liveUrl: 'https://deck-haven.vercel.app/',
       featured: true,
     },
-    {
-      id: 'utilityops-workload-tracker',
-      title: 'UtilityOps Workload Tracker',
-      shortDescription:
-        'An internal operations dashboard for tracking projects, assignments, workload, deadlines, and team capacity.',
-      longSummary:
-        'UtilityOps Workload Tracker is a production-inspired management platform designed around the needs of utility design teams. It brings project status, employee workload, scheduling, deadlines, and operational reporting into one interface. The project demonstrates dashboard architecture, data visualization, component-driven design, and business-focused product development.',
-      technologies: [
-        'Next.js',
-        'React',
-        'TypeScript',
-        'Tailwind CSS',
-        'Prisma',
-        'PostgreSQL',
-      ],
-      imageSrc: 'Workload-dashboard.png',
-      imageAlt:
-        'UtilityOps dashboard showing project status, team workload, and operational metrics',
-      githubUrl: 'https://github.com/Christopher-Holland/workload-tracker',
-      liveUrl: 'TODO_LIVE_URL_UTILITYOPS',
-      featured: true,
-      inProgress: true,
-    },  
-    /*{
-      id: 'drag-tree',
-      title: 'Drag Racing Tree Simulator',
-      shortDescription:
-        'An interactive drag-racing reaction-time game with staging, countdown, green-light, and red-light logic.',
-      longSummary:
-        'The Drag Racing Tree Simulator recreates the timing and pressure of a drag-racing starting tree in the browser. It uses carefully managed timers and application state to handle pre-stage, stage, amber countdowns, reaction times, and early-launch red lights. The project combines a personal interest in drag racing with focused frontend engineering.',
-      technologies: ['React', 'TypeScript', 'Vite', 'CSS', 'Web APIs'],
-      imageSrc: 'DragTree.png',
-      imageAlt:
-        'Drag Racing Tree Simulator showing staged lights and reaction-time controls',
-      githubUrl: 'https://github.com/Christopher-Holland/drag-tree',
-      liveUrl: 'TODO_LIVE_URL_DRAG_TREE',
-      featured: true,
-    }*/
+    
   ],
 
   experience: [
@@ -290,9 +253,9 @@ export const portfolioData: PortfolioData = {
     heading: 'Let’s build something useful',
     description:
       'I am open to full-time software engineering, automation, and development opportunities. Email is the best way to reach me.',
-    email: 'christophermholland004@gmail.com',
+    email: 'christophermholland0045@gmail.com',
     location: 'Kentucky — Open to remote opportunities',
-    resumeUrl: '/TODO-christopher-holland-resume.pdf',
+    resumeUrl: '/Christopher_Holland_Resume.pdf',
     formNote:
       'Use the email link to contact me directly. A live contact form may be added in a future update.',
   },
@@ -311,7 +274,7 @@ export const portfolioData: PortfolioData = {
     
     {
       label: 'Email',
-      href: 'mailto:christophermholland004@gmail.com',
+      href: 'mailto:christophermholland0045@gmail.com',
       icon: 'email',
     },
   ],

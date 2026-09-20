@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Local review notes (not for the public repo)
+PORTFOLIO_REVIEW.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
