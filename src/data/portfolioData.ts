@@ -61,12 +61,12 @@ export const portfolioData: PortfolioData = {
       description:
         'Languages used across web development, automation, coursework, and personal projects.',
       skills: [
-        { name: 'TypeScript', level: 86 },
-        { name: 'JavaScript', level: 88 },
-        { name: 'Python', level: 75 },
-        { name: 'SQL', level: 76 },
-        { name: 'C++', level: 68 },
-        { name: 'AutoLISP', level: 82 },
+        { name: 'TypeScript', proficiency: 'daily' },
+        { name: 'JavaScript', proficiency: 'daily' },
+        { name: 'AutoLISP', proficiency: 'daily' },
+        { name: 'Python', proficiency: 'comfortable' },
+        { name: 'SQL', proficiency: 'comfortable' },
+        { name: 'C++', proficiency: 'learning' },
       ],
     },
     {
@@ -74,10 +74,10 @@ export const portfolioData: PortfolioData = {
       description:
         'Responsive interfaces, reusable components, and accessible user experiences.',
       skills: [
-        { name: 'React', level: 87 },
-        { name: 'Next.js', level: 82 },
-        { name: 'HTML & CSS', level: 90 },
-        { name: 'Tailwind CSS', level: 86 },
+        { name: 'React', proficiency: 'daily' },
+        { name: 'HTML & CSS', proficiency: 'daily' },
+        { name: 'Tailwind CSS', proficiency: 'daily' },
+        { name: 'Next.js', proficiency: 'comfortable' },
       ],
     },
     {
@@ -85,12 +85,12 @@ export const portfolioData: PortfolioData = {
       description:
         'Application logic, APIs, authentication, and persistent data.',
       skills: [
-        { name: 'Node.js', level: 80 },
-        { name: 'REST APIs', level: 78 },
-        { name: 'PostgreSQL', level: 74 },
-        { name: 'Prisma', level: 76 },
-        { name: 'Supabase', level: 78 },
-        { name: 'Firebase', level: 72 },
+        { name: 'Node.js', proficiency: 'comfortable' },
+        { name: 'REST APIs', proficiency: 'comfortable' },
+        { name: 'PostgreSQL', proficiency: 'comfortable' },
+        { name: 'Prisma', proficiency: 'comfortable' },
+        { name: 'Supabase', proficiency: 'comfortable' },
+        { name: 'Firebase', proficiency: 'comfortable' },
       ],
     },
     {
@@ -98,11 +98,11 @@ export const portfolioData: PortfolioData = {
       description:
         'Tools and practices used to build, test, version, and deliver software.',
       skills: [
-        { name: 'Git & GitHub', level: 86 },
-        { name: 'Responsive Design', level: 88 },
-        { name: 'AutoCAD Automation', level: 90 },
-        { name: 'CI/CD', level: 66 },
-        { name: 'Agile Development', level: 78 },
+        { name: 'Git & GitHub', proficiency: 'daily' },
+        { name: 'Responsive Design', proficiency: 'daily' },
+        { name: 'AutoCAD Automation', proficiency: 'daily' },
+        { name: 'Agile Development', proficiency: 'comfortable' },
+        { name: 'CI/CD', proficiency: 'learning' },
       ],
     },
   ],

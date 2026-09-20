@@ -37,10 +37,12 @@ export interface AboutContent {
   yearsExperience: string;
 }
 
+export type SkillProficiency = 'daily' | 'comfortable' | 'learning';
+
 export interface SkillItem {
   name: string;
-  /** Relative proficiency used only for visual bars (0–100) */
-  level: number;
+  /** Honest usage band — no percentage bars */
+  proficiency: SkillProficiency;
 }
 
 export interface SkillCategory {
