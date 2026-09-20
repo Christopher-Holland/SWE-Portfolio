@@ -18,7 +18,7 @@ export function EducationSection({ items }: EducationSectionProps) {
           Education
         </h2>
 
-        <div className="grid gap-5 md:grid-cols-2">
+        <div className="grid gap-5 md:grid-cols-1">
           {items.map((item) => (
             <article
               key={item.id}
