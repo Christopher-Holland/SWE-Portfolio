@@ -2,15 +2,12 @@ import type { PortfolioData } from '../types/portfolio';
 
 /**
  * Centralized portfolio content.
- *
- * Replace remaining TODO values with your real links, contact details,
- * screenshots, and resume path before deploying.
  */
 export const portfolioData: PortfolioData = {
   meta: {
     siteTitle: 'Christopher Holland | Software Engineer',
     siteDescription:
-      'Portfolio of Christopher Holland, a software engineer and automation developer building practical web applications, internal tools, and AutoCAD workflow automation.',
+      'Portfolio of Christopher Holland, a software engineer and automation developer building full-stack applications, internal tools, and engineering workflow automation.',
     authorName: 'Christopher Holland',
     copyrightName: 'Christopher Holland',
   },
@@ -164,10 +161,11 @@ export const portfolioData: PortfolioData = {
       summary:
         'Support underground natural-gas design and drafting workflows while developing automation that improves speed, consistency, and usability.',
       achievements: [
-        'Write AutoLISP tools for block placement, text generation, rotations, layer processing, and drawing cleanup so designers skip those repeated manual steps.',
-        'Turn GIS data, DXF files, markups, and field notes into construction drawings and as-builts the team can release with less rework.',
-        'Work with designers, engineers, and end users to find workflow problems, test fixes, and keep the tools in daily production use.',
-        'Named Employee of the Month for accuracy, reliability, and automation that made production drawings more consistent.',
+          'Developed AutoLISP automation that reduced a multi-step drafting workflow from approximately three hours of manual work to roughly five minutes.',
+          'Write AutoLISP tools for block placement, text generation, rotations, layer processing, and drawing cleanup so designers can skip repetitive manual drafting steps.',
+          'Turn GIS data, DXF files, markups, and field notes into construction drawings and as-builts while reducing rework and maintaining production standards.',
+          'Work with designers, engineers, and end users to identify workflow problems, test solutions, and keep automation tools in daily production use.',
+          'Named Employee of the Month for accuracy, reliability, and automation that improved production drawing consistency.',
       ],
       technologies: [
         'AutoCAD',

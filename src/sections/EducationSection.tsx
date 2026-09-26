@@ -12,7 +12,7 @@ export function EducationSection({ items }: EducationSectionProps) {
         <SectionHeading
           eyebrow="Learning"
           title="Education"
-          description="A computer science degree (3.97 GPA) finished while working full-time, after earlier CAD training."
+          description="A computer science degree finished while working full-time, after earlier CAD training."
         />
         <h2 id="education-heading" className="sr-only">
           Education
