@@ -2,6 +2,8 @@
 <html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Favicons -->
     <link rel="icon" href="/favicon_io/favicon.ico" sizes="any" />
     <link
       rel="icon"
@@ -21,19 +23,48 @@
       href="/favicon_io/apple-touch-icon.png"
     />
     <link rel="manifest" href="/favicon_io/site.webmanifest" />
+
+    <!-- Primary metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Christopher Holland | Software Engineer & Automation Developer</title>
+
     <meta
       name="description"
-      content="Portfolio of Christopher Holland"
+      content="Portfolio of Christopher Holland, a software engineer and automation developer building full-stack applications, internal tools, and engineering workflow automation."
     />
+    <meta name="author" content="Christopher Holland" />
     <meta name="theme-color" content="#070b10" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="DEPLOYMENT_URL" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Christopher Holland Portfolio" />
+    <meta
+      property="og:title"
+      content="Christopher Holland | Software Engineer & Automation Developer"
+    />
+    <meta
+      property="og:description"
+      content="Software engineer and automation developer building full-stack applications, internal tools, and engineering workflow automation."
+    />
+    <meta property="og:url" content="DEPLOYMENT_URL" />
+    <meta property="og:image" content="DEPLOYMENT_URL/og-image.png" />
+    <meta
+      property="og:image:alt"
+      content="Christopher Holland — Software Engineer and Automation Developer"
+    />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Christopher Holland | Software Engineer</title>
+
     <!--
       Apply stored theme before React hydrates to avoid a light/dark flash.
       This script is intentionally tiny and synchronous.
@@ -48,6 +79,7 @@
               : window.matchMedia('(prefers-color-scheme: light)').matches
                 ? 'light'
                 : 'dark';
+
           document.documentElement.setAttribute('data-theme', theme);
         } catch (e) {
           document.documentElement.setAttribute('data-theme', 'dark');
@@ -55,6 +87,7 @@
       })();
     </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
