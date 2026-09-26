@@ -235,7 +235,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       id: 'edu-general-studies',
-      degree: 'Associate of Science in General Studies',
+      degree: 'Associate of Science',
       school: 'Maysville Community and Technical College',
       location: 'Kentucky',
       startDate: '2012',
