@@ -15,7 +15,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
         <SectionHeading
           eyebrow="Selected work"
           title="Featured projects"
-          description="A collection of projects that I've worked on and are currently working on."
+          description="AutoCAD automation used in production, and a full-stack app with a live demo."
         />
         <h2 id="projects-heading" className="sr-only">
           Featured projects
