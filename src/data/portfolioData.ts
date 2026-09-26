@@ -114,7 +114,7 @@ export const portfolioData: PortfolioData = {
       shortDescription:
         'A collection of AutoLISP tools that automate repetitive drafting and utility-design workflows.',
       longSummary:
-        'Built to solve real production bottlenecks in utility drafting, this suite automates block placement, text creation, layer processing, roadway geometry handling, rotations, duplicate cleanup, and other repetitive AutoCAD tasks. The project demonstrates workflow analysis, modular automation design, iterative testing, debugging, and the application of software development techniques to a professional CAD environment.',
+        'Built to solve production bottlenecks in utility drafting, this AutoLISP suite automates block placement, text creation, layer processing, roadway geometry handling, rotations, duplicate cleanup, and other repetitive AutoCAD tasks. In one multi-step workflow, the automation reduced approximately three hours of manual drafting work to roughly five minutes. The suite is designed around modular tools that can be tested, refined, and expanded as production requirements evolve.',
       technologies: [
         'AutoLISP',
         'AutoCAD',
@@ -133,9 +133,9 @@ export const portfolioData: PortfolioData = {
       id: 'deckhaven',
       title: 'DeckHaven',
       shortDescription:
-        'A full-stack platform for organizing trading card game decks, cards, and collections.',
+        'A full-stack platform for organizing Magic: The Gathering decks, cards, and collections.',
       longSummary:
-        'DeckHaven is a responsive portfolio application built to help trading card game players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design. The current version only supports Magic: The Gathering, but additional card games will be added in the future.',
+        'DeckHaven is a responsive portfolio application built to help Magic: The Gathering players organize decks and collection data in one place. The project demonstrates full-stack development, relational data modeling, reusable React components, responsive layouts, and iterative product design. ',
       technologies: [
         'Next.js',
         'React',
@@ -211,7 +211,7 @@ export const portfolioData: PortfolioData = {
       startDate: '2023',
       endDate: '2025',
       details:
-        'Completed a software engineering-focused computer science degree with a 3.97 GPA while working full-time.',
+        'Completed a software engineering-focused computer science degree while working full-time.',
       highlights: [
         'Coursework included software engineering, algorithms, databases, application development, testing, and secure coding',
         'Built applications using JavaScript, TypeScript, Python, C++, SQL, and modern web frameworks',
